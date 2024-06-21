@@ -3,7 +3,7 @@ function skillMember() {
     restrict: 'E',
     templateUrl: 'modules/skills/views/member.html',
     controller: 'SkillsMemberController',
-    controllerAs: 'member',
+    controllerAs: 'vm',
     bindToController: true,
     scope : {
       member: '='
